@@ -28,5 +28,5 @@ int32_t main()
 		cp = max(cp, new_cp);
 	}
 
-	cout << sp << "\n";
+	cout << max(sp, cp) << "\n";
 }
